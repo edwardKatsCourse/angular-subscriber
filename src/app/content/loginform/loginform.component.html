@@ -1,0 +1,23 @@
+<div class="container ">
+  <div class="offset-4 col-md-4">
+    <div class="border shadow-lg" [ngClass]="'border-' + color">
+      <form novalidate class="container-fluid">
+        <br>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" class="form-control" [ngClass]="'border-' + color">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" class="form-control" [ngClass]="'border-' + color">
+        </div>
+
+        <button class="btn" [ngClass]="'btn-' + color">Login</button>
+        <br>
+        <br>
+      </form>
+    </div>
+  </div>
+</div>
